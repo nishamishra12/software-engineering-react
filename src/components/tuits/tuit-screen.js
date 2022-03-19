@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import * as service from "../../services/tuits-service"
 import {useParams} from "react-router-dom";
 import Tuit from "./tuit";

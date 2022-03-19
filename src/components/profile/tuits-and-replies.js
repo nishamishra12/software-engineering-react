@@ -1,3 +1,4 @@
+import React from "react";
 const TuitsAndReplies = () => {
     return(
         <div>
