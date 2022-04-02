@@ -1,3 +1,6 @@
+/**
+ * Tuits page for like and dislike service.
+ */
 import React from "react";
 
 const TuitStats = ({tuit, likeTuit = () => {}, dislikeTuit = () => {}}) => {

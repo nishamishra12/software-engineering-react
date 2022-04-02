@@ -1,3 +1,6 @@
+/**
+ * Index page for likes and dislikes tuits.
+ */
 import React from "react";
 import './tuits.css';
 import Tuit from "./tuit";
