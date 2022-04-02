@@ -1,3 +1,6 @@
+/**
+ * This will create the likes and disliked icon
+ */
 import React from "react";
 
 const TuitStats = ({tuit, likeTuit = () => {}, dislikeTuit = () => {}}) => {
