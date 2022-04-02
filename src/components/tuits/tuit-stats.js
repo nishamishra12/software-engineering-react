@@ -1,6 +1,6 @@
 import React from "react";
 
-const TuitStats = ({tuit, likeTuit = () => {}, dislikeTuit =() => {}}) => {
+const TuitStats = ({tuit, likeTuit = () => {}, dislikeTuit = () => {}}) => {
     return (
       <div className="row mt-2">
         <div className="col">
@@ -15,6 +15,7 @@ const TuitStats = ({tuit, likeTuit = () => {}, dislikeTuit =() => {}}) => {
           <span className="ttr-stats-retuits">{tuit.stats.retuits}</span>
           }
         </div>
+        
         <div className="col">
           <span className="ttr-like-tuit-click" onClick={() => likeTuit(tuit)}>
               {

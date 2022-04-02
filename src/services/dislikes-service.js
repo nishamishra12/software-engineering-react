@@ -16,6 +16,6 @@ export const findAllUsersThatDisLikedTuit = (tid) =>
     api.get(`${TUITS_API}/${tid}/dislikes`)
         .then(response => response.data);
 
-export const userLikesTuit = (uid, tid) =>
+export const userDisLikesTuit = (uid, tid) =>
     api.put(`${USERS_API}/${uid}/dislikes/${tid}`)
         .then(response => response.data);
